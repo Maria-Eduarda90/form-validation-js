@@ -30,6 +30,7 @@ function handleLabel(message){
 
       setTimeout(() => {
         span.style.opacity = 0;
+        span.style.display = "none";
       }, 6000)
     });
 }
